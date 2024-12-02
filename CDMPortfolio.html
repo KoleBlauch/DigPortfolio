@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 80%;
+      height: 70%;
+      background: bisque;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+    .about {
+      text-align: left;
+      width: 80%;
+    }
+    .about h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: normal;
+      background-color: #eaeaea;
+      border-radius: 40px;
+      height: auto;
+    }
+    .profile img {
+      width: 125%;
+      height: auto;
+      border-radius: 40px;
+      align-items: center;
+      padding-right: 50px;
+    }
+    .projects {
+      grid-column: span 2;
+    }
+    .projects ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .projects ul li {
+      margin-bottom: 10px;
+    }
+    .projects ul li a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 1.1rem;
+    }
+    .projects ul li a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="about">
+      <h1>About Me</h1>
+      <p>I am a Communications and Rhetoric Major with an Economics Minor studying at the University of Pittsburgh. As I develop my abilities in various fields, all of which are business-oriented, I am hoping to branch out into the world of marketing. My experience with sales at Vector Marketing gave me the confidence and training to approach a client and match their needs to what I currently have to offer. I was equipped with team/project management and hiring training, as I hope to manage a project or team of my own in the future.</p>
+      <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="page1.html" target="_blank">Social Media Visual Argument</a></li>
+          <li><a href="page2.html" target="_blank">Puttshack Soundscape</a></li>
+          <li><a href="page3.html" target="_blank">Movie Theater Infographic</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="IMG_9555.jpg" alt="Profile Picture">
+    </div>
+  </div>
+</body>
+</html>
